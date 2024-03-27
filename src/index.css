@@ -1,0 +1,58 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.buton{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(232, 232, 101);
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: 55px;
+  height: 20px;
+}
+.cart{
+  background-color: rgba(6, 212, 248, 0.337);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 30px;
+}
+.left{
+  text-align: center;
+  border: 6px solid rgba(6, 212, 248, 0.337);
+}
+.pro{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  background-color: rgba(6, 212, 248, 0.337);
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 30px;
+}
+.right{
+  text-align: center;
+  border: 6px solid rgba(6, 212, 248, 0.337);
+  margin-left: 20px;
+}
+.total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  background-color: rgba(6, 212, 248, 0.337);
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 30px;
+}
